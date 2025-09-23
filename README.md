@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # stepik_auto_tests_course
 Автотесты по курсу AUTOMATION QA *Stepik
 
@@ -46,7 +45,7 @@ Lessons QA_Auto/
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/selenium-qa-course.git
+   git clone https://github.com/d4nc3rqqq/selenium-qa-course.git
    cd selenium-qa-course
    ```
 
@@ -105,5 +104,4 @@ python Module1/lesson1.py
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
->>>>>>> bfd14fc (Добавлено описание проекта в README)
+This project is licensed under the MIT License - see the LICENSE file for details.
