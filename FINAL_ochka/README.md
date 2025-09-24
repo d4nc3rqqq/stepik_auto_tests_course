@@ -5,7 +5,7 @@
 ## Структура проекта
 
 ```
-final_project/
+FINAL_ochka/
 ├── pages/
 │   ├── __init__.py
 │   ├── base_page.py
