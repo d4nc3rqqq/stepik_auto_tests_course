@@ -33,6 +33,10 @@ Lessons QA_Auto/
 │   ├── lesson2.3.py         # Working with dropdown lists
 │   ├── lesson2.4.py         # JavaScript execution in browser
 │   └── lesson2.5.py         # File uploads
+│
+├── Module3/                 # PyTest and Multilanguage Testing
+│   ├── conftest.py          # PyTest fixtures and language configuration
+│   └── test_items.py        # Test for checking add-to-cart button presence
 ```
 
 ## Prerequisites
@@ -88,6 +92,11 @@ Lessons QA_Auto/
 #### Waits
 - **wait1.py**: Demonstrates explicit waits with expected conditions
 
+### Module 3: PyTest and Multilanguage Testing
+
+- **conftest.py**: Sets up PyTest fixtures and browser configuration with language options
+- **test_items.py**: Tests the presence of "Add to cart" button on product page across different languages
+
 ## Usage
 
 Run any script using Python:
@@ -96,9 +105,16 @@ Run any script using Python:
 python Module1/lesson1.py
 ```
 
+To run tests with specific language settings:
+
+```
+pytest -v --language=es Module3/test_items.py
+```
+
 ## Notes
 
 - Most scripts use the website http://suninjuly.github.io/ for testing
+- Module3 tests use http://selenium1py.pythonanywhere.com/
 - Scripts include sleep times to allow viewing the results before browser closes
 - Error handling is implemented with try/finally blocks to ensure browser cleanup
 
