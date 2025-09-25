@@ -50,7 +50,7 @@ Lessons QA_Auto/
 1. Clone this repository:
    ```
    git clone https://github.com/d4nc3rqqq/stepik_auto_tests_course.git
-   cd selenium-qa-course
+   cd stepik_auto_tests_course
    ```
 
 2. Create and activate a virtual environment:
